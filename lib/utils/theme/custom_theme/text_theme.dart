@@ -4,7 +4,7 @@ class TTextTheme{
   TTextTheme._();
 
   ///customizable light text theme
-  static TextTheme lightTextTheme = TextTheme(
+  static TextTheme  lightTextTheme = TextTheme(
     headlineLarge: const TextStyle(fontSize: 32.0, fontWeight: FontWeight.bold, color: Colors.black),
     headlineMedium: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.w600, color: Colors.black),
     headlineSmall: const TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: Colors.black),
