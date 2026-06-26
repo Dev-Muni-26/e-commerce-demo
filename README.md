@@ -141,21 +141,21 @@ All images, fonts, and icons live under `assets/`. Paths are registered in `pubs
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="screenshots/onboarding.png" width="200"/>
-  <img src="screenshots/login.png" width="200"/>
+  <img src="screenshots/onboarding.png" width="200" style="border:1px solid #ddd; border-radius:12px; margin:6px;"/>
+  <img src="screenshots/login.png" width="200" style="border:1px solid #ddd; border-radius:12px; margin:6px;"/>
+  <img src="screenshots/home.png" width="200" style="border:1px solid #ddd; border-radius:12px; margin:6px;"/>
+  <img src="screenshots/store_menu.png" width="200" style="border:1px solid #ddd; border-radius:12px; margin:6px;"/>
 </p>
+
 <p align="center">
-  <img src="screenshots/home.png" width="200"/>
-  <img src="screenshots/store_menu.png" width="200"/>
-  <img src="screenshots/product_review.png" width="200"/>
+  <img src="screenshots/product_review.png" width="200" style="border:1px solid #ddd; border-radius:12px; margin:6px;"/>
+  <img src="screenshots/brand.png" width="200" style="border:1px solid #ddd; border-radius:12px; margin:6px;"/>
+  <img src="screenshots/cart.png" width="200" style="border:1px solid #ddd; border-radius:12px; margin:6px;"/>
+  <img src="screenshots/profile.png" width="200" style="border:1px solid #ddd; border-radius:12px; margin:6px;"/>
 </p>
+
 <p align="center">
-  <img src="screenshots/brand.png" width="200"/>
-  <img src="screenshots/cart.png" width="200"/>
-</p>
-<p align="center">
-  <img src="screenshots/profile.png" width="200"/>
-  <img src="screenshots/profile_detail.png" width="200"/>
+  <img src="screenshots/profile_detail.png" width="200" style="border:1px solid #ddd; border-radius:12px; margin:6px;"/>
 </p>
 
 ## Dependencies
