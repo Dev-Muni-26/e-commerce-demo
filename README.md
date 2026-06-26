@@ -143,23 +143,17 @@ All images, fonts, and icons live under `assets/`. Paths are registered in `pubs
 <p align="center">
   <img src="screenshots/onboarding.png" width="200"/>
   <img src="screenshots/login.png" width="200"/>
-  <img src="screenshots/signup.png" width="200"/>
-  <img src="screenshots/home.png" width="200"/>
 </p>
 <p align="center">
+  <img src="screenshots/home.png" width="200"/>
   <img src="screenshots/store_menu.png" width="200"/>
-  <img src="screenshots/store_product.png" width="200"/>
-  <img src="screenshots/product_detail.png" width="200"/>
   <img src="screenshots/product_review.png" width="200"/>
 </p>
 <p align="center">
   <img src="screenshots/brand.png" width="200"/>
   <img src="screenshots/cart.png" width="200"/>
-  <img src="screenshots/payment_success.png" width="200"/>
-  <img src="screenshots/order_review.png" width="200"/>
 </p>
 <p align="center">
-  <img src="screenshots/wishlist.png" width="200"/>
   <img src="screenshots/profile.png" width="200"/>
   <img src="screenshots/profile_detail.png" width="200"/>
 </p>
