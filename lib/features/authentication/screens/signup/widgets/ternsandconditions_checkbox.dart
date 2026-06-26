@@ -8,9 +8,12 @@ import '../../../../../utils/helpers/helper_functions.dart';
 class TTermsAndConditionsCheckBox extends StatelessWidget {
   const TTermsAndConditionsCheckBox({
     super.key,
+    required this.value,
+    required this.onChanged,
   });
 
-
+  final bool value;
+  final ValueChanged<bool?> onChanged;
 
   @override
   Widget build(BuildContext context) {
@@ -21,8 +24,8 @@ class TTermsAndConditionsCheckBox extends StatelessWidget {
           width: 24,
           height: 24,
           child: Checkbox(
-            value: true,
-            onChanged: (value) {},
+            value: value,
+            onChanged: onChanged,
           ),
         ),
         const SizedBox(height: TSizes.spaceBtwItems),

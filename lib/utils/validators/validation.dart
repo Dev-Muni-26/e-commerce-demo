@@ -27,20 +27,34 @@ class TValidator {
     }
 
     //check for uppercase
-    if (value.contains(RegExp(r'[A-Z]'))) {
+    if (!value.contains(RegExp(r'[A-Z]'))) {
       return 'Password must contain at least one uppercase letter.';
     }
 
     //check for number
-    if (value.contains(RegExp(r'[0-9]'))) {
+    if (!value.contains(RegExp(r'[0-9]'))) {
       return 'Password must contain at least one number.';
     }
 
     //check for special characters
-    if (value.contains(RegExp(r'[!@#$%^&*(),.?":{}|<>]'))) {
+    if (!value.contains(RegExp(r'[!@#$%^&*(),.?":{}|<>]'))) {
       return 'Password must contain at least one special character.';
     }
 
+    return null;
+  }
+
+  static String? validateLoginPassword(String? value) {
+    if (value == null || value.isEmpty) {
+      return 'Password is required.';
+    }
+    return null;
+  }
+
+  static String? validateEmptyText(String? value, String fieldName) {
+    if (value == null || value.trim().isEmpty) {
+      return '$fieldName is required.';
+    }
     return null;
   }
 

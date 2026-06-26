@@ -1,6 +1,7 @@
 import 'package:e_commerce/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:e_commerce/features/authentication/screens/signup/signup_screen.dart';
 import 'package:e_commerce/navigation_menu.dart';
+import 'package:e_commerce/utils/validators/validation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -8,30 +9,60 @@ import 'package:iconsax/iconsax.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
 
-class TLoginForm extends StatelessWidget {
+class TLoginForm extends StatefulWidget {
   const TLoginForm({
     super.key,
   });
 
   @override
+  State<TLoginForm> createState() => _TLoginFormState();
+}
+
+class _TLoginFormState extends State<TLoginForm> {
+  final _formKey = GlobalKey<FormState>();
+  bool _rememberMe = true;
+  bool _obscurePassword = true;
+
+  void _submitLogin() {
+    if (_formKey.currentState!.validate()) {
+      Get.to(() => const NavigationMenu());
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Form(
+      key: _formKey,
       child: Padding(
         padding:
-        const EdgeInsets.symmetric(vertical: TSizes.spaceBtwSections),
+            const EdgeInsets.symmetric(vertical: TSizes.spaceBtwSections),
         child: Column(
           children: [
             TextFormField(
+              keyboardType: TextInputType.emailAddress,
+              validator: TValidator.validateEmail,
+              autovalidateMode: AutovalidateMode.onUserInteraction,
               decoration: const InputDecoration(
-                  prefixIcon: Icon(Iconsax.direct_right),
-                  labelText: TTexts.email),
+                prefixIcon: Icon(Iconsax.direct_right),
+                labelText: TTexts.email,
+              ),
             ),
             const SizedBox(height: TSizes.spaceBtwInputFields),
             TextFormField(
-              decoration: const InputDecoration(
-                prefixIcon: Icon(Iconsax.password_check),
+              obscureText: _obscurePassword,
+              validator: TValidator.validateLoginPassword,
+              autovalidateMode: AutovalidateMode.onUserInteraction,
+              decoration: InputDecoration(
+                prefixIcon: const Icon(Iconsax.password_check),
                 labelText: TTexts.password,
-                suffixIcon: Icon(Iconsax.eye_slash),
+                suffixIcon: IconButton(
+                  icon: Icon(
+                    _obscurePassword ? Iconsax.eye_slash : Iconsax.eye,
+                  ),
+                  onPressed: () {
+                    setState(() => _obscurePassword = !_obscurePassword);
+                  },
+                ),
               ),
             ),
             const SizedBox(height: TSizes.spaceBtwInputFields / 2),
@@ -43,7 +74,12 @@ class TLoginForm extends StatelessWidget {
                 /// Remember me
                 Row(
                   children: [
-                    Checkbox(value: true, onChanged: (value) {}),
+                    Checkbox(
+                      value: _rememberMe,
+                      onChanged: (value) {
+                        setState(() => _rememberMe = value ?? false);
+                      },
+                    ),
                     const Text(TTexts.rememberMe),
                   ],
                 ),
@@ -61,7 +97,7 @@ class TLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () => Get.to(() => const NavigationMenu()),
+                onPressed: _submitLogin,
                 child: const Text(TTexts.signIn),
               ),
             ),
@@ -71,7 +107,7 @@ class TLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
-                onPressed: () => Get.to(() => const SignUpScreen()) ,
+                onPressed: () => Get.to(() => const SignUpScreen()),
                 child: const Text(TTexts.createAccount),
               ),
             ),
