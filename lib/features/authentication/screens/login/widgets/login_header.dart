@@ -19,17 +19,9 @@ class TLoginHeader extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Container(
-          decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
-              border: Border.all(
-                color: Colors.red,
-              )
-          ),
-          child: Image(
-            image: AssetImage(
-                dark ? TImages.darkAppLogo : TImages.lightAppLogo),
-          ),
+        Image(
+          image: AssetImage(
+              dark ? TImages.darkAppLogo : TImages.lightAppLogo),
         ),
         const SizedBox(height: TSizes.spaceBtwItems),
         Text(TTexts.loginTitle,

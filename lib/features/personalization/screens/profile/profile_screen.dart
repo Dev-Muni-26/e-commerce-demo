@@ -1,6 +1,6 @@
-import 'package:e_commerce/common/widgets/appbar/appbar.dart';
-import 'package:e_commerce/common/widgets/images/t_circular_image.dart';
-import 'package:e_commerce/common/widgets/texts/section_headings.dart';
+import 'package:e_commerce/widgets/appbar/appbar.dart';
+import 'package:e_commerce/widgets/images/t_circular_image.dart';
+import 'package:e_commerce/widgets/texts/section_headings.dart';
 import 'package:e_commerce/features/personalization/screens/profile/widget/profile_menu.dart';
 import 'package:e_commerce/utils/constants/image_strings.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';

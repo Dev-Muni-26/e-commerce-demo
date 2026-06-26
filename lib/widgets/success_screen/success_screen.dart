@@ -1,4 +1,3 @@
-import 'package:e_commerce/common/styles/spacing_style.dart';
 import 'package:flutter/material.dart';
 import '../../../utils/constants/sizes.dart';
 import '../../../utils/constants/text_strings.dart';
@@ -15,7 +14,7 @@ class SuccessScreen extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.only(top: 200, right: TSizes.defaultSpace,bottom: TSizes.defaultSpace,left: TSizes.defaultSpace),
+          padding: const EdgeInsets.only(top: 200, right: TSizes.defaultSpace,bottom: TSizes.defaultSpace,left: TSizes.defaultSpace),
           child: Expanded(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,

@@ -1,4 +1,4 @@
-import 'package:e_commerce/common/widgets/texts/t_brand_title_text.dart';
+import 'package:e_commerce/widgets/texts/t_brand_title_text.dart';
 import 'package:e_commerce/utils/constants/enums.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';

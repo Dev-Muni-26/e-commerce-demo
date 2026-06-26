@@ -1,7 +1,7 @@
 import 'package:e_commerce/features/shop/screens/sub_category/sub_categories.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../../../common/widgets/image_texts_widget/vertical_image_text.dart';
+import '../../../../../widgets/image_texts_widget/vertical_image_text.dart';
 import '../../../../../utils/constants/image_strings.dart';
 
 

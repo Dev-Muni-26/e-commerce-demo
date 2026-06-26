@@ -3,8 +3,8 @@ import 'package:e_commerce/features/shop/controllers/home_controller.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../../../common/widgets/custom_shapes/container/circular_container.dart';
-import '../../../../../common/widgets/images/t_rounded_images.dart';
+import '../../../../../widgets/custom_shapes/container/circular_container.dart';
+import '../../../../../widgets/images/t_rounded_images.dart';
 import '../../../../../utils/constants/sizes.dart';
 class TPromoSlider extends StatelessWidget {
   const TPromoSlider({

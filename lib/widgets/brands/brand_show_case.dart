@@ -1,4 +1,4 @@
-import 'package:e_commerce/common/widgets/brands/t_brand_card.dart';
+import 'package:e_commerce/widgets/brands/t_brand_card.dart';
 import 'package:flutter/material.dart';
 import '../../../utils/constants/colors.dart';
 import '../../../utils/constants/sizes.dart';
@@ -15,7 +15,6 @@ class TBrandShowcase extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark = THelperFunctions.isDarkMode(context);
     return TRoundedContainer(
       showBorder: true,
       backgroundColor: Colors.transparent,

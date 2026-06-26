@@ -7,6 +7,7 @@ import '../../../utils/constants/link_strings.dart';
 import '../../../utils/constants/sizes.dart';
 import '../../../utils/device/device_utility.dart';
 
+/// Google and Facebook sign-in buttons that open each provider's login page in the browser.
 class TSocialButtons extends StatelessWidget {
   const TSocialButtons({
     super.key,

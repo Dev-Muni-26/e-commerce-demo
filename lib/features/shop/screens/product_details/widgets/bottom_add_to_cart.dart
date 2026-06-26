@@ -1,4 +1,4 @@
-import 'package:e_commerce/common/widgets/icons/t_circular_icon.dart';
+import 'package:e_commerce/widgets/icons/t_circular_icon.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/helpers/helper_functions.dart';

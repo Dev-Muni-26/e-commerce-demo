@@ -2,10 +2,10 @@ import 'package:e_commerce/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../../common/widgets/appbar/appbar.dart';
-import '../../../../../common/widgets/custom_shapes/curved_edges/curved_edges_widget.dart';
-import '../../../../../common/widgets/icons/t_circular_icon.dart';
-import '../../../../../common/widgets/images/t_rounded_images.dart';
+import '../../../../../widgets/appbar/appbar.dart';
+import '../../../../../widgets/custom_shapes/curved_edges/curved_edges_widget.dart';
+import '../../../../../widgets/icons/t_circular_icon.dart';
+import '../../../../../widgets/images/t_rounded_images.dart';
 import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/image_strings.dart';
 import '../../../../../utils/constants/sizes.dart';

@@ -1,7 +1,7 @@
-import 'package:e_commerce/common/widgets/appbar/appbar.dart';
-import 'package:e_commerce/common/widgets/custom_shapes/container/primary_header_container.dart';
-import 'package:e_commerce/common/widgets/list_tile/setting_menu_tile.dart';
-import 'package:e_commerce/common/widgets/texts/section_headings.dart';
+import 'package:e_commerce/widgets/appbar/appbar.dart';
+import 'package:e_commerce/widgets/custom_shapes/container/primary_header_container.dart';
+import 'package:e_commerce/widgets/list_tile/setting_menu_tile.dart';
+import 'package:e_commerce/widgets/texts/section_headings.dart';
 import 'package:e_commerce/features/personalization/screens/address/address.dart';
 import 'package:e_commerce/features/shop/screens/cart/cart.dart';
 import 'package:e_commerce/features/shop/screens/order/order.dart';
@@ -11,7 +11,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../common/widgets/list_tile/user_profile_tile.dart';
+import '../../../../widgets/list_tile/user_profile_tile.dart';
 import '../profile/profile_screen.dart';
 
 class SettingScreen extends StatelessWidget {

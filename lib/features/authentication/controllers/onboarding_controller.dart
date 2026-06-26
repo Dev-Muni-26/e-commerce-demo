@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 
 import '../screens/login/login.dart';
 
+/// Controls onboarding page index, dot navigation, skip, and next actions.
 class OnBoardingController extends GetxController {
   static OnBoardingController get instance => Get.find();
 

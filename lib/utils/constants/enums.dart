@@ -4,6 +4,6 @@
 
 enum TextSizes{small, medium, large}
 
-enum OrderStatus{Processing, shipped, delivered}
+enum OrderStatus{processing, shipped, delivered}
 
 enum PaymentMethods{paypal, googlePay, applepay, visa, masterCard, creditCard, payStack, razorpay, paytm}

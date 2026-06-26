@@ -1,13 +1,13 @@
-import 'package:e_commerce/common/widgets/images/t_circular_image.dart';
-import 'package:e_commerce/common/widgets/texts/product_title_text.dart';
-import 'package:e_commerce/common/widgets/texts/t_brand_title_text_with_verification.dart';
-import 'package:e_commerce/common/widgets/texts/t_product_price_text.dart';
+import 'package:e_commerce/widgets/images/t_circular_image.dart';
+import 'package:e_commerce/widgets/texts/product_title_text.dart';
+import 'package:e_commerce/widgets/texts/t_brand_title_text_with_verification.dart';
+import 'package:e_commerce/widgets/texts/t_product_price_text.dart';
 import 'package:e_commerce/utils/constants/enums.dart';
 import 'package:e_commerce/utils/constants/image_strings.dart';
 import 'package:e_commerce/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../../common/widgets/container/t_rounded_container.dart';
+import '../../../../../widgets/container/t_rounded_container.dart';
 import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/sizes.dart';
 
@@ -26,7 +26,7 @@ class TProductMetaData extends StatelessWidget {
             /// Sale Tag
             TRoundedContainer(
               radius: TSizes.sm,
-              backgroundColor: TColors.secondary.withOpacity(0.8),
+              backgroundColor: TColors.secondary.withValues(alpha: 0.8),
               padding: const EdgeInsets.symmetric(
                   horizontal: TSizes.sm, vertical: TSizes.xs),
               child: Text(

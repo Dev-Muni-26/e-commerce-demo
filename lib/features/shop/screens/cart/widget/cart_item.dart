@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../common/widgets/products/cart/add_remove_button.dart';
-import '../../../../../common/widgets/products/cart/cart_item.dart';
-import '../../../../../common/widgets/texts/t_product_price_text.dart';
+import '../../../../../widgets/products/cart/add_remove_button.dart';
+import '../../../../../widgets/products/cart/cart_item.dart';
+import '../../../../../widgets/texts/t_product_price_text.dart';
 import '../../../../../utils/constants/sizes.dart';
 
 

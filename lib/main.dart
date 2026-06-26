@@ -2,15 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'app.dart';
 
-
-///------entry point of the flutter app ------
-void main(){
-
-  //ToDo: Add Widgets Binding
-  //ToDo: Init Local Storage
-  //ToDo: Await Native Splash
-  //ToDo: Initialize Firebase
-  //ToDo: Initialize Authentication
+/// Application entry point. Initializes and runs the root [App] widget.
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const App());
 }
-

@@ -1,13 +1,13 @@
-import 'package:e_commerce/common/widgets/container/t_rounded_container.dart';
-import 'package:e_commerce/common/widgets/texts/product_title_text.dart';
-import 'package:e_commerce/common/widgets/texts/section_headings.dart';
-import 'package:e_commerce/common/widgets/texts/t_product_price_text.dart';
+import 'package:e_commerce/widgets/container/t_rounded_container.dart';
+import 'package:e_commerce/widgets/texts/product_title_text.dart';
+import 'package:e_commerce/widgets/texts/section_headings.dart';
+import 'package:e_commerce/widgets/texts/t_product_price_text.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../../common/widgets/chips/choice_chips.dart';
+import '../../../../../widgets/chips/choice_chips.dart';
 
 class TProductAttributes extends StatelessWidget {
   const TProductAttributes({super.key});

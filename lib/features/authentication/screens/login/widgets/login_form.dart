@@ -9,6 +9,7 @@ import 'package:iconsax/iconsax.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
 
+/// Login form with email/password validation and navigation actions.
 class TLoginForm extends StatefulWidget {
   const TLoginForm({
     super.key,

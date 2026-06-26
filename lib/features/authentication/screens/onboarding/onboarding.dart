@@ -1,4 +1,4 @@
-import 'package:e_commerce/features/authentication/controllers.onboarding/onboarding_controller.dart';
+import 'package:e_commerce/features/authentication/controllers/onboarding_controller.dart';
 import 'package:e_commerce/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
 import 'package:e_commerce/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
 import 'package:e_commerce/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
@@ -8,6 +8,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../utils/constants/text_strings.dart';
 
+/// First-run onboarding flow with three swipeable intro pages.
+/// Completing or skipping onboarding navigates to [LoginScreen].
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
 

@@ -17,13 +17,12 @@ class TTexts{
 
   //--Home
   static const String homeAppBarTitle = "Good Day for Shopping";
-  static const String homeAppBarSubTitle = "Harigathooo..! ";
-
+  static const String homeAppBarSubTitle = "Discover deals curated for you";
 
 
   // Authentication Heading Text
   static const String loginTitle = "Welcome Back";
-  static const String loginSubTitle = "Harigathooo..! ";
+  static const String loginSubTitle = "Sign in to continue shopping";
   static const String signUpTitle = "Let's create your account ";
   static const String forgetPasswordTitle = "Password";
   static const String forgetPasswordSubTitle = "Don't worry sometimes people can forget too, enter your email and we will send you a password reset link";

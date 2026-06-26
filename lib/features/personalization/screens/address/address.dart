@@ -1,4 +1,4 @@
-  import 'package:e_commerce/common/widgets/appbar/appbar.dart';
+  import 'package:e_commerce/widgets/appbar/appbar.dart';
 import 'package:e_commerce/features/personalization/screens/address/widget/single_address.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';

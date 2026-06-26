@@ -1,18 +1,20 @@
-import 'package:e_commerce/common/widgets/container/t_rounded_container.dart';
-import 'package:e_commerce/common/widgets/images/t_rounded_images.dart';
-import 'package:e_commerce/common/widgets/texts/t_brand_title_text_with_verification.dart';
+
 import 'package:e_commerce/features/shop/screens/product_details/product_details.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/constants/image_strings.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/helpers/helper_functions.dart';
 import 'package:e_commerce/utils/shadows/shadow.dart';
+import 'package:e_commerce/widgets/container/t_rounded_container.dart';
+import 'package:e_commerce/widgets/icons/t_circular_icon.dart';
+import 'package:e_commerce/widgets/images/t_rounded_images.dart';
+import 'package:e_commerce/widgets/texts/product_title_text.dart';
+import 'package:e_commerce/widgets/texts/t_brand_title_text_with_verification.dart';
+import 'package:e_commerce/widgets/texts/t_product_price_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import '../../icons/t_circular_icon.dart';
-import '../../texts/product_title_text.dart';
-import '../../texts/t_product_price_text.dart';
+
 
 class TProductCartVertical extends StatelessWidget {
   const   TProductCartVertical({super.key});
@@ -54,7 +56,7 @@ class TProductCartVertical extends StatelessWidget {
                     top: 12,
                     child: TRoundedContainer(
                       radius: TSizes.sm,
-                      backgroundColor: TColors.secondary.withOpacity(0.6),
+                      backgroundColor: TColors.secondary.withValues(alpha: 0.6),
                       padding: const EdgeInsets.symmetric(
                           horizontal: TSizes.sm, vertical: TSizes.xs),
                       child: Text(
@@ -91,7 +93,6 @@ class TProductCartVertical extends StatelessWidget {
                 ],
               ),
             ),
-            // Todo: Add Spacer() here to keep the height od each box same in case 1 or 2 lines of headings
             const Spacer(),
 
             /// Price Row

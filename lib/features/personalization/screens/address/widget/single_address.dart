@@ -4,7 +4,7 @@ import 'package:e_commerce/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../../common/widgets/container/t_rounded_container.dart';
+import '../../../../../widgets/container/t_rounded_container.dart';
 
 class TSingleAddress extends StatelessWidget {
   const TSingleAddress({super.key, required this.selectedAddress});
@@ -16,7 +16,7 @@ class TSingleAddress extends StatelessWidget {
       padding: const EdgeInsets.all(TSizes.md),
       width: double.infinity,
       showBorder: true,
-      backgroundColor: selectedAddress ? TColors.primary.withOpacity(0.5) : Colors.transparent,
+      backgroundColor: selectedAddress ? TColors.primary.withValues(alpha: 0.5) : Colors.transparent,
       borderColor: selectedAddress ? Colors.transparent : dark ? TColors.darkerGrey : TColors.grey,
       margin: const EdgeInsets.only(bottom: TSizes.spaceBtwItems),
       child: Stack(

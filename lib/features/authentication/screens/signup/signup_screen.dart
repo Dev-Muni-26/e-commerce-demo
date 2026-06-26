@@ -1,5 +1,5 @@
-import 'package:e_commerce/common/widgets/login_signup/form_divider.dart';
-import 'package:e_commerce/common/widgets/login_signup/social_button.dart';
+import 'package:e_commerce/widgets/login_signup/form_divider.dart';
+import 'package:e_commerce/widgets/login_signup/social_button.dart';
 import 'package:e_commerce/features/authentication/screens/signup/widgets/signup_form.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/constants/text_strings.dart';
@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 
+/// Registration screen with validated signup form and social sign-up options.
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({super.key});
 

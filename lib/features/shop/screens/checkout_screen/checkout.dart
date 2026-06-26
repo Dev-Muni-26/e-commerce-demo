@@ -1,5 +1,5 @@
-import 'package:e_commerce/common/widgets/container/t_rounded_container.dart';
-import 'package:e_commerce/common/widgets/success_screen/success_screen.dart';
+import 'package:e_commerce/widgets/container/t_rounded_container.dart';
+import 'package:e_commerce/widgets/success_screen/success_screen.dart';
 import 'package:e_commerce/features/shop/screens/cart/widget/cart_item.dart';
 import 'package:e_commerce/features/shop/screens/checkout_screen/widget/billing_address.dart';
 import 'package:e_commerce/features/shop/screens/checkout_screen/widget/billing_amount.dart';
@@ -12,8 +12,8 @@ import 'package:e_commerce/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../common/widgets/appbar/appbar.dart';
-import '../../../../common/widgets/products/cart/coupon_widget.dart';
+import '../../../../widgets/appbar/appbar.dart';
+import '../../../../widgets/products/cart/coupon_widget.dart';
 
 class CheckOutScreen extends StatelessWidget {
   const CheckOutScreen({super.key});

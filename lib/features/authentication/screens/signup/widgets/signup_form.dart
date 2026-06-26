@@ -7,6 +7,7 @@ import 'package:iconsax/iconsax.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
 
+/// Signup form with field validation, terms acceptance, and email verification flow.
 class TSignUpForm extends StatefulWidget {
   const TSignUpForm({
     super.key,
