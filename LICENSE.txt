@@ -1,0 +1,19 @@
+Flutter E-Commerce UI Template — License
+
+Copyright (c) 2026
+
+This template is sold for use in a single end product per purchase ("Regular License").
+
+You MAY:
+- Use this template in one (1) personal or client project
+- Modify the code, fonts, colors, and assets to fit your app
+- Publish apps built using this template to app stores
+
+You MAY NOT:
+- Resell, redistribute, or share the raw source code itself
+- Re-upload this template (modified or unmodified) to any marketplace, free or paid
+- Use it in multiple unrelated projects without purchasing an Extended License
+
+For an Extended License (multiple projects/resale rights), contact: rmuni936@gmail.com
+
+This template is provided "as is" without warranty of any kind.
